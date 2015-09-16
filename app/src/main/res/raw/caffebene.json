@@ -1,0 +1,124 @@
+{
+    "cafename":"starbucks",
+    "option":[
+               {
+                 "category":"milk",
+                 "detail":["normal","low-fat","non-fat","soybean"]
+               },
+               {
+                 "category":"shot",
+                 "detail":["+shot","-shot"]
+               },
+               {
+                 "category":"syrup",
+                 "detail":["syrup","vanilla","caramel","gingerbread"]
+               },
+               {
+                 "category":"whipping",
+                 "detail":["normal","soybean","espresso","chocolate"]
+               },
+               {
+                 "category":"topping",
+                 "detail":["java-chip","mocha-drizzle","caramel"]
+               }
+             ],
+    "drink":[
+          {
+            "category":"커피",
+            "product":[
+                { "name":"더치 아메리카노","img":"d_cb_0101" },
+                { "name":"아이스 아메리카노","img":"d_cb_0102" },
+                { "name":"아메리카노","img":"d_cb_0103" },
+                { "name":"카페라떼","img":"d_cb_0104" },
+                { "name":"바닐라라떼","img":"d_cb_0105" },
+                { "name":"카푸치노","img":"d_cb_0106" },
+                { "name":"카페모카","img":"d_cb_0107" },
+                { "name":"화이트 모카","img":"d_cb_0108" },
+                { "name":"카라멜 마끼야또","img":"d_cb_0109" },
+                { "name":"에스프레소","img":"d_cb_0110" },
+                { "name":"아포가또","img":"d_cb_0111" },
+                { "name":"에스프레소 콘 파냐","img":"d_cb_0112" },
+                { "name":"에스프레소 마끼야또","img":"d_cb_0113" },
+                { "name":"크림 카라멜 라떼","img":"d_cb_0114" },
+                { "name":"크림 망뜨라","img":"d_cb_0115" }
+            ]
+          },
+          {
+            "category":"프라페노",
+            "product":[
+                { "name":"킷캣 에스프레소 셰이커","img":"d_cb_0201" },
+                { "name":"에스프레소 초코칩 프라페노","img":"d_cb_0202" },
+                { "name":"카라멜 프라페노","img":"d_cb_0203" },
+                { "name":"모카 프라페노","img":"d_cb_0204" },
+                { "name":"화이트 모카 프라페노","img":"d_cb_0205" },
+                { "name":"미숫가루 프라페노","img":"d_cb_0206" },
+                { "name":"그린티 프라페노","img":"d_cb_0207" },
+                { "name":"초코칩 프라페노","img":"d_cb_0208" },
+                { "name":"플레인 요거트 스무디","img":"d_cb_0209" },
+                { "name":"블루베리 요거트 스무디","img":"d_cb_0210" },
+                { "name":"딸기 요거트 스무디","img":"d_cb_0211" }
+            ]
+          },
+          {
+            "category":"티",
+            "product":[
+                { "name":"녹차","img":"d_cb_0301" },
+                { "name":"잉글리쉬 블랙 퍼스트","img":"d_cb_0302" },
+                { "name":"얼그레이","img":"d_cb_0303" },
+                { "name":"민트","img":"d_cb_0304" },
+                { "name":"캐모마일","img":"d_cb_0305" },
+                { "name":"유자티","img":"d_cb_0306" },
+                { "name":"허니레몬티","img":"d_cb_0307" },
+                { "name":"아이스티(복숭아)","img":"d_cb_0308" },
+                { "name":"아이스티(레몬)","img":"d_cb_0309" }
+            ]
+          },
+          {
+            "category":"라떼",
+            "product":[
+                { "name":"앤디스 민트 초코라떼","img":"d_cb_0401" },
+                { "name":"바리깔레보 블랑 초코라떼","img":"d_cb_0402" },
+                { "name":"레드벨벳 카페라떼","img":"d_cb_0403" },
+                { "name":"밀크빈 라떼","img":"d_cb_0404" },
+                { "name":"미슷가루 라떼","img":"d_cb_0405" },
+                { "name":"아이스 미슷가루라떼","img":"d_cb_0406" },
+                { "name":"그린라떼","img":"d_cb_0407" },
+                { "name":"아이스 그린 라떼","img":"d_cb_0408" },
+                { "name":"밀크 티 라떼","img":"d_cb_0409" },
+                { "name":"아이스 밀크 티 라떼","img":"d_cb_0410" },
+                { "name":"타로 버블티","img":"d_cb_0411" },
+                { "name":"밀크 버블티","img":"d_cb_0412" },
+                { "name":"블루베리 라떼","img":"d_cb_0413" },
+                { "name":"아이스 블루베리 라떼","img":"d_cb_0414" },
+                { "name":"고구마 라떼","img":"d_cb_0415" },
+                { "name":"아이스 고구마 라떼","img":"d_cb_0416" },
+                { "name":"리얼 초콜릿 라떼","img":"d_cb_0417" },
+                { "name":"아이스 리얼 초콜릿 라떼","img":"d_cb_0418" },
+                { "name":"우유","img":"d_cb_0419" }
+                ]
+          },
+          {
+            "category":"주스",
+            "product":[
+                { "name":"토마토 주스(시즌)", "img":"d_cb_0501" },
+                { "name":"키위 주스", "img":"d_cb_0502" },
+                { "name":"자몽 주스", "img":"d_cb_0503" },
+                { "name":"오렌지 주스", "img":"d_cb_0504" },
+                { "name":"홍시 주스", "img":"d_cb_0505" }
+            ]
+          },
+          {
+            "category":"칵테일 & 에이드",
+            "product":[
+                { "name":"오리지널 모히토","img":"d_cb_0601" },
+                { "name":"레몬에이드","img":"d_cb_0602" },
+                { "name":"자몽에이드","img":"d_cb_0603" },
+                { "name":"상그리아","img":"d_cb_0604" },
+                { "name":"뱅쇼","img":"d_cb_0605" },
+                { "name":"골든 메달리스트","img":"d_cb_0606" },
+                { "name":"피나 콜라다","img":"d_cb_0607" },
+                { "name":"블루베리 블러썸","img":"d_cb_0608" }
+            ]
+          }
+    ]
+}
