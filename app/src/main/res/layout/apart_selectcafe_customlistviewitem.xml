@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:padding="10dp"
+    android:weightSum="10"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/selectcafe_listviewitem_imageview_cafebrand"
+        android:layout_weight="2.5"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="6.5"
+        android:layout_gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectcafe_listviewitem_txtview_cafename"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectcafe_listviewitem_txtview_update"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center|right"
+        android:src="@drawable/arrow_next" />
+</LinearLayout>

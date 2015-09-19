@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
-    <ImageView
+    <!--ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/selectcafe_imgview_starbucks"
@@ -13,6 +14,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/selectcafe_imgview_caffebene"
-    android:src="@drawable/b_statbucks" />
+    android:src="@drawable/b_statbucks" /-->
 
+    <ListView
+        android:id="@+id/selectcafe_listview_listgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:color/darker_gray"></ListView>
 </LinearLayout>
